@@ -49,12 +49,8 @@ Cruder 的应用服务器此时同时处理静态和动态资源。静态资源�
 
 这是实际复制模式的一个示例。
 
-[1] "HTTP 缓存": https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
-
-[2] "CQRS": https://martinfowler.com/bliki/CQRS.html
-
-[3] 这是功能分解的另一个例子
-
-[4] "NGINX": https://www.nginx.com/
-
-[5] "HAProxy": https://www.haproxy.com/
+[^1]: "HTTP 缓存": https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
+[^2]:  "CQRS": https://martinfowler.com/bliki/CQRS.html
+[^3]: 这是功能分解的另一个例子
+[^4]: "NGINX": https://www.nginx.com/
+[^5]: "HAProxy": https://www.haproxy.com/

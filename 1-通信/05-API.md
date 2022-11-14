@@ -228,44 +228,24 @@ API 最初是一个精心设计的接口[^15]。缓慢但肯定地，它将不�
 
 -------------------
 
-[1] "ECMA-404：JSON 数据交换语法"，https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
-
-[2] "协议缓冲区：一种用于序列化结构化数据的语言中立、平台中立的可扩展机制"，https://developers.google.com/protocol-buffers
-
-[3] "使用 async 和 await 进行异步编程"，https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
-
-[4] "gRPC：高性能、开源的通用 RPC 框架"，https://grpc.io/
-
-[5] "代表性状态转移"，https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
-
-[6] "超文本传输协议"，https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
-
-[7] "HTTP 流水线"，https://en.wikipedia.org/wiki/HTTP_pipelining
-
-[8] "RFC 7540：超文本传输协议版本 2 (HTTP/2)"，https://tools.ietf.org/html/rfc7540
-
-[9] "HTTP/3 是下一代 HTTP。 QUIC 够吗？" https://www.youtube.com/watch?v=rlN4F1oyaRM
-
-[10] "比较 HTTP/3 与 HTTP/2 的性能"，https://blog.cloudflare.com/http-3-vs-http-2/
-
-[11] "HTTP 内容协商"，https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation
-
-[12] "HTTP 状态代码"，https://httpstatuses.com/
-
-[13] 在本书中，我们有时会根据依赖关系的方向将服务依赖分为上游或下游。例如，如果服务 A 向服务 B 发出请求，则服务 B 是 A 的下游依赖项，A 是 B 的上游依赖项。由于业界对这些术语没有共识，其他文本可能会使用不同的约定
-
-[14] "OpenAPI 规范"，https://swagger.io/specification/
-
-[15] 或者至少应该
-
-[16] "Avro 中的架构演变、协议缓冲区和 Thrift"，https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html
-
-[17] "幂等方法"，https://datatracker.ietf.org/doc/html/rfc7231#section-4.2.2
-
-[18] "设计具有幂等性的健壮且可预测的 API"，https://stripe.com/blog/idempotency
-
-[19] "使用原子事务为幂等 API 提供动力"，https://brandur.org/http-transactions
-
-[20] "在 Postgres 中实现条带式幂等键"，https://brandur.org/idempotency-keys
-
-[21] "使用幂等 API 确保重试安全"，https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/
+[^1]: "ECMA-404：JSON 数据交换语法"，https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
+[^2]: "协议缓冲区：一种用于序列化结构化数据的语言中立、平台中立的可扩展机制"，https://developers.google.com/protocol-buffers
+[^3]: "使用 async 和 await 进行异步编程"，https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
+[^4]: "gRPC：高性能、开源的通用 RPC 框架"，https://grpc.io/
+[^5]: "代表性状态转移"，https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+[^6]: "超文本传输协议"，https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+[^7]: "HTTP 流水线"，https://en.wikipedia.org/wiki/HTTP_pipelining
+[^8]: "RFC 7540：超文本传输协议版本 2 (HTTP/2)"，https://tools.ietf.org/html/rfc7540
+[^9]: "HTTP/3 是下一代 HTTP。 QUIC 够吗？" https://www.youtube.com/watch?v=rlN4F1oyaRM
+[^10]: "比较 HTTP/3 与 HTTP/2 的性能"，https://blog.cloudflare.com/http-3-vs-http-2/
+[^11]: "HTTP 内容协商"，https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation
+[^12]: "HTTP 状态代码"，https://httpstatuses.com/
+[^13]: 在本书中，我们有时会根据依赖关系的方向将服务依赖分为上游或下游。例如，如果服务 A 向服务 B 发出请求，则服务 B 是 A 的下游依赖项，A 是 B 的上游依赖项。由于业界对这些术语没有共识，其他文本可能会使用不同的约定
+[^14]: "OpenAPI 规范"，https://swagger.io/specification/
+[^15]: 或者至少应该
+[^16]: "Avro 中的架构演变、协议缓冲区和 Thrift"，https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html
+[^17]: "幂等方法"，https://datatracker.ietf.org/doc/html/rfc7231#section-4.2.2
+[^18]: "设计具有幂等性的健壮且可预测的 API"，https://stripe.com/blog/idempotency
+[^19]: "使用原子事务为幂等 API 提供动力"，https://brandur.org/http-transactions
+[^20]: "在 Postgres 中实现条带式幂等键"，https://brandur.org/idempotency-keys
+[^21]: "使用幂等 API 确保重试安全"，https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/
